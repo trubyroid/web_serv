@@ -8,10 +8,11 @@
 
 class Config{
     private:
+        // std::map <std::string, int> server;
         std::string line;
         Config();
     public:
-        std::map <std::string,std::string> server;
+        // std::map <std::string,std::string> server;
         Config(std::string str);
         ~Config();
         int read_file(std::string fileName);
